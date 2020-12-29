@@ -6,10 +6,17 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { TarefasModule } from './tarefas';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, FormsModule, HttpModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    TarefasModule,
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
