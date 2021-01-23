@@ -19,7 +19,7 @@ export class ListarTarefaComponent implements OnInit {
   listarTodos(): Tarefa[] {
     return this.tarefaService.listarTodos();
   }
-
+  // Usamos o event para prevenir que a pagina atualiza ao metodo ser chamado. Event captura qualquer evento do navegador
   remover($event: any, tarefa: Tarefa): void {
     $event.preventDefault();
     if (confirm('Deseja remover a tarefa "' + tarefa.nome + '"?')) {
