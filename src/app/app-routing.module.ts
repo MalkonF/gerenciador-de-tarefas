@@ -6,9 +6,10 @@ export const routes: Routes = [
   {
     path: '',
     redirectTo: '/tarefas/listar',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
-  ...TarefaRoutes];
+  ...TarefaRoutes,
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
