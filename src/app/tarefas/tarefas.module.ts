@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar';
 
-
 @NgModule({
   declarations: [
     ListarTarefaComponent,
