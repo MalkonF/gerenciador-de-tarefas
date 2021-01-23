@@ -1,0 +1,2 @@
+[0123/200545.633:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\malko\AppData\Local\Temp\karma-74177494\Crashpad\attachments\9136ea21-3a30-4131-9465-a95f8a6acacf: O sistema não pode encontrar o caminho especificado. (0x3)
+[0123/201718.100:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\malko\AppData\Local\Temp\karma-40839067\Crashpad\attachments\fb38a29a-0109-412a-9d2e-fee7b5b483fb: O sistema não pode encontrar o caminho especificado. (0x3)
